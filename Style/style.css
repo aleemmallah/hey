@@ -1,0 +1,114 @@
+.container1 {
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.table {
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 60px;
+}
+
+body {
+    background: url('https://i.pinimg.com/originals/d8/84/c4/d884c4b4dedc1afccfd322a7ea6429ad.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.img1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.container .box {
+    position: relative;
+    width: 340px;
+    height: 224px;
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.box:hover {
+    transform: scale(1.15);
+}
+
+.box:hover .img1 {
+    margin: 112px;
+    visibility: visible;
+    opacity: 1;
+    justify-content: center;
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.box>h3 {
+    font-style: italic;
+}
+
+h3,
+p,
+h2,
+h4 {
+    color: white;
+    text-align: center;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+@media (max-width:499px) {
+    .container1 h3 {
+        background-color: orangered;
+        border-radius: 5px;
+    }
+    .container1 #test::before {
+        content: "Career";
+    }
+}
+
+@media (min-width:500px) {
+    .container1 h3 {
+        background-color: darkslategray;
+        border-radius: 5px;
+        margin-top: 80px;
+    }
+    .container1 #test::before {
+        content: "Career Information";
+    }
+}
