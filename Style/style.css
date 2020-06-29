@@ -106,6 +106,7 @@ h4 {
     .container1 #test::before {
         content: "Career";
     }
+
 }
 
 @media (min-width:500px) {
@@ -116,5 +117,5 @@ h4 {
     }
     .container1 #test::before {
         content: "Career Information";
-    }
+    }.container .box{margin:0 auto}
 }
